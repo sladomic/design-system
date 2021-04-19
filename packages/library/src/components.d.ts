@@ -1148,9 +1148,17 @@ export namespace Components {
          */
         "name": string;
         /**
+          * If `true` the component has only to items
+         */
+        "onlyTwoOptions": boolean;
+        /**
           * The value of the control.
          */
         "value": string;
+        /**
+          * If `true` the items are shown vertical instead of vertical
+         */
+        "vertical": boolean;
     }
     interface BalSelect {
         /**
@@ -3526,9 +3534,17 @@ declare namespace LocalJSX {
          */
         "onBalChange"?: (event: CustomEvent<string>) => void;
         /**
+          * If `true` the component has only to items
+         */
+        "onlyTwoOptions"?: boolean;
+        /**
           * The value of the control.
          */
         "value"?: string;
+        /**
+          * If `true` the items are shown vertical instead of vertical
+         */
+        "vertical"?: boolean;
     }
     interface BalSelect {
         /**

@@ -28,6 +28,16 @@ export class RadioGroup implements ComponentInterface {
   @Prop() inverted: boolean = false
 
   /**
+   * If `true` the component has only to items
+   */
+  @Prop() onlyTwoOptions: boolean = false
+
+  /**
+   * If `true` the items are shown vertical instead of vertical
+   */
+  @Prop() vertical: boolean = false
+
+  /**
    * The value of the control.
    */
   @Prop({ mutable: true }) value: string = ''
@@ -90,7 +100,16 @@ export class RadioGroup implements ComponentInterface {
     }
 
     return (
-      <Host role="radiogroup" aria-labelledby={label ? labelId : null} onClick={this.onClick} class={`bal-${this.interface}`}>
+      <Host
+        role="radiogroup"
+        aria-labelledby={label ? labelId : null}
+        onClick={this.onClick}
+        class={{
+          [`bal-${this.interface}`]: true,
+          'has-only-two-options': this.onlyTwoOptions,
+          'is-vertical': this.vertical,
+        }}
+      >
         <slot></slot>
       </Host>
     )
