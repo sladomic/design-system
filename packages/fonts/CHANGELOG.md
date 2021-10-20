@@ -3,6 +3,23 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/baloise/design-system/compare/v1.4.1...v1.20.0) (2021-10-20)
+
+
+### Bug Fixes
+
+* resolve packages ([2c14a4b](https://github.com/baloise/design-system/commit/2c14a4b0d3068661309f5c442c93f9e4a19b5751))
+
+
+### Features
+
+* **table:** introduce new table package ([0540144](https://github.com/baloise/design-system/commit/05401440fad284092ecb0220c567ab22eda003b4))
+* **vue:** update deps ([9323c8d](https://github.com/baloise/design-system/commit/9323c8dd8ecf82126f97d412669756d2c2203b7d))
+
+
+
+
+
 ## [1.19.1](https://github.com/baloise/design-system/compare/v1.19.0...v1.19.1) (2021-10-08)
 
 **Note:** Version bump only for package @baloise/design-system-fonts

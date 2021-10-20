@@ -3,6 +3,39 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/baloise/design-system/compare/v1.4.1...v1.20.0) (2021-10-20)
+
+
+### Bug Fixes
+
+* add fixed sub package versions ([da41daf](https://github.com/baloise/design-system/commit/da41dafe664826ffc98c33f74c5625399d388a63))
+* **input:** fix autofocus and add directives for angular and vue ([ef76dcf](https://github.com/baloise/design-system/commit/ef76dcf9b4ff160b3a38f2148081233407964b53))
+* resolve packages ([2c14a4b](https://github.com/baloise/design-system/commit/2c14a4b0d3068661309f5c442c93f9e4a19b5751))
+* **vue:** adjust types of the props ([41f29b1](https://github.com/baloise/design-system/commit/41f29b1175a5da6fc4f67f02e0e602b7ad4b64ec))
+* **vue:** change return type of ValidatorFn to string and boolean. closes [#306](https://github.com/baloise/design-system/issues/306) ([52e2b2b](https://github.com/baloise/design-system/commit/52e2b2bcbdf2287b459eaca26d0b92b8d83b9403))
+* **vue:** improve rules condition for raised error messages ([cfcfead](https://github.com/baloise/design-system/commit/cfcfead53a88882be3c990adcb47d34f4e178b6f))
+* **vue:** use detail instead of value from the change event ([f979fe9](https://github.com/baloise/design-system/commit/f979fe90acbfbc8abbf6071814647b0195f65d6a))
+* **vue:** use detail instead of value from the change event ([5e3c70c](https://github.com/baloise/design-system/commit/5e3c70c09d3fb1d58eb32865ae5ffd5e39cdf5ce))
+
+
+### Features
+
+* add bal-app component ([ecef5d9](https://github.com/baloise/design-system/commit/ecef5d991b59a243a0444850fc0db31bddabaa9f))
+* add unsupported browser function ([15905e9](https://github.com/baloise/design-system/commit/15905e9dbc3d4674e727082bc6481dbc3d2dfeac))
+* **footer:** add dynamic baloise links ([263a661](https://github.com/baloise/design-system/commit/263a6617fc59217963149ef480785f89a51de965))
+* **input:** add number-input with decimal ([ab473de](https://github.com/baloise/design-system/commit/ab473deacb867ffd44f23e76b0ed6f9400d5072e))
+* **modal:** add animation ([2121a74](https://github.com/baloise/design-system/commit/2121a74b0d5f8ed52d22647d0441060fdb0c7e47))
+* **modal:** add modal service ([45d89d8](https://github.com/baloise/design-system/commit/45d89d89bdaf0953a60ef451033d0e9b6ed564e2))
+* **select:** add disabled attribute to the options. closes [#306](https://github.com/baloise/design-system/issues/306) ([c7b38eb](https://github.com/baloise/design-system/commit/c7b38eb06ac8c4d59b4c60651d040189dfee765c))
+* **select:** add single value ([b5b536c](https://github.com/baloise/design-system/commit/b5b536ccd62122663b838fa8411a7ca386760922))
+* **table:** introduce new table package ([0540144](https://github.com/baloise/design-system/commit/05401440fad284092ecb0220c567ab22eda003b4))
+* **vue:** rename function validators to rules ([9bad019](https://github.com/baloise/design-system/commit/9bad019a4a02dbf354b799060d454f1729328d45))
+* **vue:** update deps ([9323c8d](https://github.com/baloise/design-system/commit/9323c8dd8ecf82126f97d412669756d2c2203b7d))
+
+
+
+
+
 ## [1.19.1](https://github.com/baloise/design-system/compare/v1.19.0...v1.19.1) (2021-10-08)
 
 **Note:** Version bump only for package @baloise/design-system-components-vue

@@ -3,6 +3,43 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/baloise/design-system/compare/v1.4.1...v1.20.0) (2021-10-20)
+
+
+### Bug Fixes
+
+* add fixed sub package versions ([da41daf](https://github.com/baloise/design-system/commit/da41dafe664826ffc98c33f74c5625399d388a63))
+* **angular:** export delegate ([40062f9](https://github.com/baloise/design-system/commit/40062f9c0164db379a629b59908e6c0880876b5f))
+* **angular:** export service ([5998082](https://github.com/baloise/design-system/commit/59980829c2c9bf4b6765db65c235340b5aedad54))
+* **angular:** listens for the first given error ([67bd4c4](https://github.com/baloise/design-system/commit/67bd4c491e0e2425df218903caa19b626e34d615))
+* **angular:** use .detail instead of .target.value ([4496cdd](https://github.com/baloise/design-system/commit/4496cdd2a06789eb430dbce1b96390644741352a))
+* **angular:** use event.detail instead of event.target.value ([4709780](https://github.com/baloise/design-system/commit/47097800fc799de3d0c30a43e1a731836d9ed046))
+* **input:** fix autofocus and add directives for angular and vue ([ef76dcf](https://github.com/baloise/design-system/commit/ef76dcf9b4ff160b3a38f2148081233407964b53))
+* resolve packages ([2c14a4b](https://github.com/baloise/design-system/commit/2c14a4b0d3068661309f5c442c93f9e4a19b5751))
+
+
+### Features
+
+* add bal-app component ([ecef5d9](https://github.com/baloise/design-system/commit/ecef5d991b59a243a0444850fc0db31bddabaa9f))
+* **angular:** add bal-ng-error ([7f41482](https://github.com/baloise/design-system/commit/7f4148242640d54fc3ec0b33a39b83a43592492b))
+* **footer:** add dynamic baloise links ([263a661](https://github.com/baloise/design-system/commit/263a6617fc59217963149ef480785f89a51de965))
+* **modal:** add animation ([2121a74](https://github.com/baloise/design-system/commit/2121a74b0d5f8ed52d22647d0441060fdb0c7e47))
+* **modal:** add modal service ([45d89d8](https://github.com/baloise/design-system/commit/45d89d89bdaf0953a60ef451033d0e9b6ed564e2))
+* **modal:** add new methods ([51296a8](https://github.com/baloise/design-system/commit/51296a84d2dc3254d5d0bf583d88e247fd66935e))
+* **select:** add single value ([b5b536c](https://github.com/baloise/design-system/commit/b5b536ccd62122663b838fa8411a7ca386760922))
+
+
+
+## [1.3.1](https://github.com/baloise/design-system/compare/v1.3.0...v1.3.1) (2021-06-21)
+
+
+
+# [1.3.0](https://github.com/baloise/design-system/compare/v1.2.3...v1.3.0) (2021-06-16)
+
+
+
+
+
 ## [1.19.1](https://github.com/baloise/design-system/compare/v1.19.0...v1.19.1) (2021-10-08)
 
 **Note:** Version bump only for package @baloise/design-system-components-angular

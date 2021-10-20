@@ -3,6 +3,25 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/baloise/design-system/compare/v1.4.1...v1.20.0) (2021-10-20)
+
+
+### Bug Fixes
+
+* add fixed sub package versions ([da41daf](https://github.com/baloise/design-system/commit/da41dafe664826ffc98c33f74c5625399d388a63))
+* resolve packages ([2c14a4b](https://github.com/baloise/design-system/commit/2c14a4b0d3068661309f5c442c93f9e4a19b5751))
+* **table:** improve deliverments ([6999a48](https://github.com/baloise/design-system/commit/6999a48130876fd583e9657e12dd89226855b916))
+* **table:** resolve deps ([00d98a8](https://github.com/baloise/design-system/commit/00d98a896a6961a0e7b3e8f6e82e3ba736421909))
+
+
+### Features
+
+* **footer:** add dynamic baloise links ([263a661](https://github.com/baloise/design-system/commit/263a6617fc59217963149ef480785f89a51de965))
+
+
+
+
+
 ## [1.19.1](https://github.com/baloise/design-system/compare/v1.19.0...v1.19.1) (2021-10-08)
 
 **Note:** Version bump only for package @baloise/design-system-components-table

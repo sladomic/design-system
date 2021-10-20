@@ -3,6 +3,38 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/baloise/design-system/compare/v1.4.1...v1.20.0) (2021-10-20)
+
+
+### Bug Fixes
+
+* [#314](https://github.com/baloise/design-system/issues/314), bal-file-upload: clear state of html input file on change to fix the bug, emit change event only if list of files changed - not if rejection happened ([8529906](https://github.com/baloise/design-system/commit/85299063395ae3ddc3237b68839609ee1cff3798))
+* add fixed sub package versions ([da41daf](https://github.com/baloise/design-system/commit/da41dafe664826ffc98c33f74c5625399d388a63))
+* **angular:** use event.detail instead of event.target.value ([4709780](https://github.com/baloise/design-system/commit/47097800fc799de3d0c30a43e1a731836d9ed046))
+* **list:** use flexbox ([2c34f09](https://github.com/baloise/design-system/commit/2c34f09033fa2f8b4c9b2790c9209b225240f668))
+* resolve packages ([2c14a4b](https://github.com/baloise/design-system/commit/2c14a4b0d3068661309f5c442c93f9e4a19b5751))
+* **testing:** add and command ([acddfb4](https://github.com/baloise/design-system/commit/acddfb4e83b4c180aca08cb848e21528ea6d644a))
+* **testing:** add label support for checkbox & radio ([47c1dbe](https://github.com/baloise/design-system/commit/47c1dbee1359ec3ee59e60cd85489a2ca9bcaab6))
+* **testing:** fix cy.url().should() ([156d9b4](https://github.com/baloise/design-system/commit/156d9b4d7c38337e6ac5820fa292c527a27e6a14))
+* **testing:** improve select of radios ([ee64a27](https://github.com/baloise/design-system/commit/ee64a2756a1c513be38eaf81fc25312fadfa046e))
+* **testing:** look for label instead of input for radio & checkbox ([9c26641](https://github.com/baloise/design-system/commit/9c2664126e1a2e0e0f159755bb1d95d0ac1dfdb3))
+* **testing:** remove console log ([e68c022](https://github.com/baloise/design-system/commit/e68c0224605d95eca2871441b45ba0840217da24))
+
+
+### Features
+
+* **footer:** add dynamic baloise links ([263a661](https://github.com/baloise/design-system/commit/263a6617fc59217963149ef480785f89a51de965))
+* **testing:** add and override commands for accordion, button, datepicker and checkbox ([a80a5f6](https://github.com/baloise/design-system/commit/a80a5f603e7083500bc6a9d3aaf47d3fc3207deb))
+* **testing:** add andable.ts and attachable.ts mixin description ([e918b8a](https://github.com/baloise/design-system/commit/e918b8a2db1e19b7eadd2e42deff697040b83e7d))
+* **testing:** add or override cypress commands for dropdown, input, modal, radio, select, tabs and toast ([e088819](https://github.com/baloise/design-system/commit/e088819b946bd5147825a6907bc64861becb2f9c))
+* **testing:** add support for hint, pagination, slider and snackbar ([13f882c](https://github.com/baloise/design-system/commit/13f882c609abc108f014d1cefaa2befe95147022))
+* **testing:** improve select accessor ([5b5a632](https://github.com/baloise/design-system/commit/5b5a6325c2e69b94c0740255073602848897d6e4))
+* **testing:** remove mixins and accessors ([8684a68](https://github.com/baloise/design-system/commit/8684a68c6bec275c07b2f810ad93c364bde7df97))
+
+
+
+
+
 ## [1.19.1](https://github.com/baloise/design-system/compare/v1.19.0...v1.19.1) (2021-10-08)
 
 **Note:** Version bump only for package @baloise/design-system-testing

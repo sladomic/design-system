@@ -3,6 +3,178 @@
 All notable changes to this project will be documented in this file.
 See [Conventional Commits](https://conventionalcommits.org) for commit guidelines.
 
+# [1.20.0](https://github.com/sladomic/design-system/compare/v1.4.1...v1.20.0) (2021-10-20)
+
+
+### Bug Fixes
+
+* [#314](https://github.com/sladomic/design-system/issues/314), bal-file-upload: clear state of html input file on change to fix the bug, emit change event only if list of files changed - not if rejection happened ([8529906](https://github.com/sladomic/design-system/commit/85299063395ae3ddc3237b68839609ee1cff3798))
+* add fixed sub package versions ([0ab2c03](https://github.com/sladomic/design-system/commit/0ab2c03904b732d227fdd1345d2088b9b3a978aa))
+* add fixed sub package versions ([da41daf](https://github.com/sladomic/design-system/commit/da41dafe664826ffc98c33f74c5625399d388a63))
+* adjust release workflow ([e336388](https://github.com/sladomic/design-system/commit/e336388819c4c7b3045aab94b5b90a7739d16bb7))
+* adjust release workflow ([1b3674e](https://github.com/sladomic/design-system/commit/1b3674e05899e9df719bbe3f68badae24267aff2))
+* **angular:** export delegate ([40062f9](https://github.com/sladomic/design-system/commit/40062f9c0164db379a629b59908e6c0880876b5f))
+* **angular:** export service ([5998082](https://github.com/sladomic/design-system/commit/59980829c2c9bf4b6765db65c235340b5aedad54))
+* **angular:** listens for the first given error ([67bd4c4](https://github.com/sladomic/design-system/commit/67bd4c491e0e2425df218903caa19b626e34d615))
+* **angular:** use .detail instead of .target.value ([4496cdd](https://github.com/sladomic/design-system/commit/4496cdd2a06789eb430dbce1b96390644741352a))
+* **angular:** use event.detail instead of event.target.value ([4709780](https://github.com/sladomic/design-system/commit/47097800fc799de3d0c30a43e1a731836d9ed046))
+* **button:** fix loading state with icons ([5d31e89](https://github.com/sladomic/design-system/commit/5d31e892fbdb7de6a00b12c45c9cf47ffff3c8a3))
+* **card:** adjust primary color ([da530b7](https://github.com/sladomic/design-system/commit/da530b707e5833cbd9546339e787bebf9913183f))
+* **card:** adjust spacing ([2b7c745](https://github.com/sladomic/design-system/commit/2b7c7459897cb080ccd884183928eb5cfe80a30d))
+* **card:** don't break words ([0f5d2bf](https://github.com/sladomic/design-system/commit/0f5d2bfe1ebb3b1cd2623439f761e86ac88062b7))
+* change modal background and field height ([eb87f1b](https://github.com/sladomic/design-system/commit/eb87f1b639d61028c4712a9229b828358d0896d3))
+* **checkbox:** improve reaction time ([076e911](https://github.com/sladomic/design-system/commit/076e9110e1e2982a0931ae64d1ea5039c8b9df0a))
+* **checkbox:** remplace rem with pixel ([2095880](https://github.com/sladomic/design-system/commit/20958801cf871f6082649fbdbc4adb8bd346acde))
+* **container:** adjust container to new paddings ([d033195](https://github.com/sladomic/design-system/commit/d0331959c6de4a7eb53d95f6bfec8582bd36afc6))
+* **data:** add missing disable state for the edit button ([44e2682](https://github.com/sladomic/design-system/commit/44e26823ad6d0fb6cf0010e605740698bc60acc5))
+* **datepicker:** fix fullwidth ([cddd3f2](https://github.com/sladomic/design-system/commit/cddd3f2a459e7fb428096bda7b61586a29eda986))
+* **datepicker:** limit month & year select when using min and max ([d06fd72](https://github.com/sladomic/design-system/commit/d06fd7239856bb4e559fc338267507157465a16b))
+* **dropdown:** only open menu when there is enough space on top ([6edc40b](https://github.com/sladomic/design-system/commit/6edc40bec8a1de460a4b1ef01c45c5d3af397ea8))
+* **dropdown:** remove possible border-bottom effect ([fad665e](https://github.com/sladomic/design-system/commit/fad665e13fffa1dd311f39decaeae27ed3fd2bcd))
+* **field:** change min height if label is given or not ([1d1fc2e](https://github.com/sladomic/design-system/commit/1d1fc2e6dc849dba0186b7ee2c7342a8e949d22d))
+* **input:** enable clipboard content ([4d4032e](https://github.com/sladomic/design-system/commit/4d4032e15d457f67e9f404375dc767ca6bf58907))
+* **input:** enable normal input again ([1a29327](https://github.com/sladomic/design-system/commit/1a29327d9f0eeeb707cae61863f63a6aca50a117))
+* **input:** fix autofocus and add directives for angular and vue ([ef76dcf](https://github.com/sladomic/design-system/commit/ef76dcf9b4ff160b3a38f2148081233407964b53))
+* **link:** add inverted style ([e801ef6](https://github.com/sladomic/design-system/commit/e801ef62237238760e8831ea30398b3bc5e6faf7))
+* **list:** use flexbox ([2c34f09](https://github.com/sladomic/design-system/commit/2c34f09033fa2f8b4c9b2790c9209b225240f668))
+* **modal:** add card class on user element ([8515746](https://github.com/sladomic/design-system/commit/8515746fb0efc68ef029c86f6e5963e0b8e68fd5))
+* **modal:** adjust paddings ([d13e24b](https://github.com/sladomic/design-system/commit/d13e24b55ccce34773ff7805909ecb068d54e509))
+* **notification:** adjust padding and link colors ([da48a01](https://github.com/sladomic/design-system/commit/da48a010967d9bc151e09513f1aaca7836bb9a1c))
+* only format value if number input is active ([23ba116](https://github.com/sladomic/design-system/commit/23ba11659e3d6da588881a03cd53352765f8c659))
+* **pagination:** reduce number of pages of mobile devices ([33959ec](https://github.com/sladomic/design-system/commit/33959ec6c22d190397caabdbdd05f488182c5736))
+* **radio:** improve change emitting for faster reaction time ([3e3e6df](https://github.com/sladomic/design-system/commit/3e3e6df3d4c6ba23f9637ef732dcb9e0c1e37d9d))
+* **radio:** improve reaction time ([6e7ab15](https://github.com/sladomic/design-system/commit/6e7ab151784f5e382b3950d591705aa191427ae2))
+* **radio:** remove debugger statement ([c555113](https://github.com/sladomic/design-system/commit/c5551135792e1fe76844c4676b2360b1fc19c011))
+* release workflow ([0a0f8f1](https://github.com/sladomic/design-system/commit/0a0f8f1324634d1c6681ee5cc4806237be429323))
+* resolve packages ([2c14a4b](https://github.com/sladomic/design-system/commit/2c14a4b0d3068661309f5c442c93f9e4a19b5751))
+* **select:** fix arrow key navigation on focus ([fd77ff4](https://github.com/sladomic/design-system/commit/fd77ff4e7485981f29f12b37f1cba9f144d72b0a))
+* **select:** fix fullwidth ([9cf060a](https://github.com/sladomic/design-system/commit/9cf060a6cbf269fa7e03f55d56d87497dcabe126))
+* **select:** getValues returns now always an array ([89fd89e](https://github.com/sladomic/design-system/commit/89fd89e1f9280ef4450b03e6eed92b5956c1b8d1))
+* **select:** improve clear and key navigation ([e77479d](https://github.com/sladomic/design-system/commit/e77479df925bff61bc39e224309c0a2c95564512))
+* **select:** improve disabled look ([069b80d](https://github.com/sladomic/design-system/commit/069b80d7c6552349922814f65f376c609fae75be))
+* **select:** listen for attribute and text content changes ([9a517e0](https://github.com/sladomic/design-system/commit/9a517e0ed6c8bdb05db6dca4fcbcbd55ec4aa7e5))
+* **select:** open dropdown with arrow keys ([f1621dd](https://github.com/sladomic/design-system/commit/f1621ddd71651ce8d25e4ac9f1f02b2142201960))
+* **select:** remove old unused attribute searchInput ([d03c1a8](https://github.com/sladomic/design-system/commit/d03c1a85ec7177ea555b09e331ea1d16a99d9765))
+* **styles:** remove old client lib variables ([9413e38](https://github.com/sladomic/design-system/commit/9413e38f5ff44d911eabab7f400f3c838db8d6cb))
+* **table:** alignt text to center for  buttons ([b561840](https://github.com/sladomic/design-system/commit/b561840c94fd63b82a3a272abcff67c182a72351))
+* **table:** center text of the button ([95945a3](https://github.com/sladomic/design-system/commit/95945a39b330a7cb4fcd22b5dd42fad9b1c21e8c))
+* **table:** improve deliverments ([6999a48](https://github.com/sladomic/design-system/commit/6999a48130876fd583e9657e12dd89226855b916))
+* **table:** make styles accessable for angular & vue applications ([f5b5de5](https://github.com/sladomic/design-system/commit/f5b5de5b9061bd600bf0ad5b9783b825b7b38c1c))
+* **table:** resolve deps ([00d98a8](https://github.com/sladomic/design-system/commit/00d98a896a6961a0e7b3e8f6e82e3ba736421909))
+* **tabs:** adjust disabled style ([3813bf7](https://github.com/sladomic/design-system/commit/3813bf7d7b942fc4e0f4f2b2de68efe12c0f1428))
+* **tabs:** only fire tab change event ones ([3a15e4f](https://github.com/sladomic/design-system/commit/3a15e4fe937d559c50cd45c83c1408891a53e64d))
+* **testing:** add and command ([acddfb4](https://github.com/sladomic/design-system/commit/acddfb4e83b4c180aca08cb848e21528ea6d644a))
+* **testing:** add label support for checkbox & radio ([47c1dbe](https://github.com/sladomic/design-system/commit/47c1dbee1359ec3ee59e60cd85489a2ca9bcaab6))
+* **testing:** fix cy.url().should() ([156d9b4](https://github.com/sladomic/design-system/commit/156d9b4d7c38337e6ac5820fa292c527a27e6a14))
+* **testing:** improve select of radios ([ee64a27](https://github.com/sladomic/design-system/commit/ee64a2756a1c513be38eaf81fc25312fadfa046e))
+* **testing:** look for label instead of input for radio & checkbox ([9c26641](https://github.com/sladomic/design-system/commit/9c2664126e1a2e0e0f159755bb1d95d0ac1dfdb3))
+* **testing:** remove console log ([e68c022](https://github.com/sladomic/design-system/commit/e68c0224605d95eca2871441b45ba0840217da24))
+* **text:** add word break ([28260a7](https://github.com/sladomic/design-system/commit/28260a7cd71003c50cdd5b1d66b89210032da58c))
+* **text:** fix bold style ([5de5051](https://github.com/sladomic/design-system/commit/5de5051fde24b378e6edcf6670d33d84fada31a5))
+* **text:** fix swap slot elements. closes [#303](https://github.com/sladomic/design-system/issues/303) ([7cd266b](https://github.com/sladomic/design-system/commit/7cd266b4c7c94bf875da03ed492d127e962bc5f3))
+* **toast&snackbar:** fix glitches when leaving the dom ([de9fd0e](https://github.com/sladomic/design-system/commit/de9fd0e35430558041ff50e143c51cad3d567142))
+* update stencil to version 2.8.0 ([0f80d25](https://github.com/sladomic/design-system/commit/0f80d257543619de4e83081cba95b49f55e0581e))
+* **validators:** empty values will not get validate unless isRequired is set ([a85a248](https://github.com/sladomic/design-system/commit/a85a24882ce7698330e129290d06951c159b9182))
+* **vue:** adjust types of the props ([41f29b1](https://github.com/sladomic/design-system/commit/41f29b1175a5da6fc4f67f02e0e602b7ad4b64ec))
+* **vue:** change return type of ValidatorFn to string and boolean. closes [#306](https://github.com/sladomic/design-system/issues/306) ([52e2b2b](https://github.com/sladomic/design-system/commit/52e2b2bcbdf2287b459eaca26d0b92b8d83b9403))
+* **vue:** improve rules condition for raised error messages ([cfcfead](https://github.com/sladomic/design-system/commit/cfcfead53a88882be3c990adcb47d34f4e178b6f))
+* **vue:** use detail instead of value from the change event ([f979fe9](https://github.com/sladomic/design-system/commit/f979fe90acbfbc8abbf6071814647b0195f65d6a))
+* **vue:** use detail instead of value from the change event ([5e3c70c](https://github.com/sladomic/design-system/commit/5e3c70c09d3fb1d58eb32865ae5ffd5e39cdf5ce))
+
+
+### Features
+
+* add bal-app component ([ecef5d9](https://github.com/sladomic/design-system/commit/ecef5d991b59a243a0444850fc0db31bddabaa9f))
+* add unsupported browser function ([15905e9](https://github.com/sladomic/design-system/commit/15905e9dbc3d4674e727082bc6481dbc3d2dfeac))
+* **angular:** add bal-ng-error ([7f41482](https://github.com/sladomic/design-system/commit/7f4148242640d54fc3ec0b33a39b83a43592492b))
+* **button:** add button group helper css class ([a03dcf3](https://github.com/sladomic/design-system/commit/a03dcf3a201dd0cc8c851dbca274adfe6e000780))
+* **components:** update deps ([f650c2b](https://github.com/sladomic/design-system/commit/f650c2bf2773a1954dc9f5d99689faac6af0f313))
+* **field:** add button addons ([1201eed](https://github.com/sladomic/design-system/commit/1201eeda219335db91231b333a52f496b5f1a443))
+* **file-upload:** add clear method ([ffcaa84](https://github.com/sladomic/design-system/commit/ffcaa84f3b7ec49414a709dc50b5111287b0cbde))
+* **filters:** add police number filter ([912e74b](https://github.com/sladomic/design-system/commit/912e74b2ac29194e05fa54dc54bc6199a8ed3b26))
+* **footer:** add dynamic baloise links ([263a661](https://github.com/sladomic/design-system/commit/263a6617fc59217963149ef480785f89a51de965))
+* **heading:** add new space attribute ([f07459d](https://github.com/sladomic/design-system/commit/f07459d86c085c99caf6d3d79abb6994d216cef5))
+* **input:** add logic for checking if number entered is valid and add decimal property for number formating ([01818a7](https://github.com/sladomic/design-system/commit/01818a7a862664b3733b597cd13569989aeb487a))
+* **input:** add number-input with decimal ([ab473de](https://github.com/sladomic/design-system/commit/ab473deacb867ffd44f23e76b0ed6f9400d5072e))
+* **input:** add suffix attribute ([121e585](https://github.com/sladomic/design-system/commit/121e585f7ec94b22988fe1c87f85eaf85c21ae15))
+* **modal:** add animation ([2121a74](https://github.com/sladomic/design-system/commit/2121a74b0d5f8ed52d22647d0441060fdb0c7e47))
+* **modal:** add mobile solution and fix custom width ([3308957](https://github.com/sladomic/design-system/commit/3308957eb7971382904fc8fa58fa5ae05848ea5e))
+* **modal:** add mobile view ([0fb0d27](https://github.com/sladomic/design-system/commit/0fb0d277bb7213ec29e3855b22f917a2abcca4ea))
+* **modal:** add modal service ([45d89d8](https://github.com/sladomic/design-system/commit/45d89d89bdaf0953a60ef451033d0e9b6ed564e2))
+* **modal:** add new methods ([51296a8](https://github.com/sladomic/design-system/commit/51296a84d2dc3254d5d0bf583d88e247fd66935e))
+* **select:** add disabled attribute to the options. closes [#306](https://github.com/sladomic/design-system/issues/306) ([c7b38eb](https://github.com/sladomic/design-system/commit/c7b38eb06ac8c4d59b4c60651d040189dfee765c))
+* **select:** add single value ([b5b536c](https://github.com/sladomic/design-system/commit/b5b536ccd62122663b838fa8411a7ca386760922))
+* **snackbar,toast:** add action and close handler, skip duplications ([bfb09a4](https://github.com/sladomic/design-system/commit/bfb09a4044a5b3315e2645bc7cb6c40217937329))
+* **stepper:** add stepper template ([4b02cae](https://github.com/sladomic/design-system/commit/4b02cae763b40fc8f31d3d15f58abb8caf85fffe))
+* **table:** introduce new table package ([0540144](https://github.com/sladomic/design-system/commit/05401440fad284092ecb0220c567ab22eda003b4))
+* **table:** update ag-grid usage ([f083875](https://github.com/sladomic/design-system/commit/f0838754edc5d8a907b1bec0fdf8b503e16e674d))
+* **testing:** add and override commands for accordion, button, datepicker and checkbox ([a80a5f6](https://github.com/sladomic/design-system/commit/a80a5f603e7083500bc6a9d3aaf47d3fc3207deb))
+* **testing:** add andable.ts and attachable.ts mixin description ([e918b8a](https://github.com/sladomic/design-system/commit/e918b8a2db1e19b7eadd2e42deff697040b83e7d))
+* **testing:** add or override cypress commands for dropdown, input, modal, radio, select, tabs and toast ([e088819](https://github.com/sladomic/design-system/commit/e088819b946bd5147825a6907bc64861becb2f9c))
+* **testing:** add support for hint, pagination, slider and snackbar ([13f882c](https://github.com/sladomic/design-system/commit/13f882c609abc108f014d1cefaa2befe95147022))
+* **testing:** improve select accessor ([5b5a632](https://github.com/sladomic/design-system/commit/5b5a6325c2e69b94c0740255073602848897d6e4))
+* **testing:** remove mixins and accessors ([8684a68](https://github.com/sladomic/design-system/commit/8684a68c6bec275c07b2f810ad93c364bde7df97))
+* **text:** add new hint color ([3320708](https://github.com/sladomic/design-system/commit/3320708723f1e6b733ffbf34e8ebf85cbeb883e9))
+* **vue:** rename function validators to rules ([9bad019](https://github.com/sladomic/design-system/commit/9bad019a4a02dbf354b799060d454f1729328d45))
+* **vue:** update deps ([9323c8d](https://github.com/sladomic/design-system/commit/9323c8dd8ecf82126f97d412669756d2c2203b7d))
+
+
+
+# [1.4.0](https://github.com/sladomic/design-system/compare/v1.3.1...v1.4.0) (2021-06-23)
+
+
+
+## [1.3.1](https://github.com/sladomic/design-system/compare/v1.3.0...v1.3.1) (2021-06-21)
+
+
+### Bug Fixes
+
+* **radio:** add disabled to radio-group ([5d783b3](https://github.com/sladomic/design-system/commit/5d783b3126c1e41b1e12ecf283f6a62ccbc4c51e))
+
+
+
+# [1.3.0](https://github.com/sladomic/design-system/compare/v1.2.3...v1.3.0) (2021-06-16)
+
+
+### Features
+
+* **footer:** add new footer component ([2d4cb02](https://github.com/sladomic/design-system/commit/2d4cb02391c2fb4ff741cd83852e2a94fea03fdb))
+* **hint:** auto detects the placement ([e83fdd3](https://github.com/sladomic/design-system/commit/e83fdd3afbdb73ad427c82478fb96fa6faf914e6))
+* **slider:** add new form component range slider ([7b89138](https://github.com/sladomic/design-system/commit/7b89138bfea2d4f5a763eeb6c36f16fb75394708))
+
+
+
+## [1.2.3](https://github.com/sladomic/design-system/compare/v1.2.2...v1.2.3) (2021-06-15)
+
+
+
+## [1.2.2](https://github.com/sladomic/design-system/compare/v1.2.1...v1.2.2) (2021-06-15)
+
+
+
+## [1.2.1](https://github.com/sladomic/design-system/compare/v1.1.1...v1.2.1) (2021-06-09)
+
+
+### Features
+
+* add react proxy lib ([459acd8](https://github.com/sladomic/design-system/commit/459acd820cc2f28781967999ce40e1e425cccb57))
+
+
+
+## [1.1.1](https://github.com/sladomic/design-system/compare/v1.0.2...v1.1.1) (2021-06-03)
+
+
+
+## [1.0.2](https://github.com/sladomic/design-system/compare/v1.0.0...v1.0.2) (2021-05-27)
+
+
+
+# 1.0.0 (2021-05-18)
+
+
+
+
+
 ## [1.19.1](https://github.com/baloise/design-system/compare/v1.19.0...v1.19.1) (2021-10-08)
 
 
